@@ -4,17 +4,17 @@ header, footer, nav, section {
 
 
 header {
-    background-color: rgb(237, 237, 194);
+    background-color: azure;
     color: black;
 }
 
 footer {
-    background-color: rgb(237, 237, 194);
+    background-color: azure;
     color: black;
 }
 
 nav {
-    background-color: yellow;
+    background-color:azure;
     color: black;
 }
 
