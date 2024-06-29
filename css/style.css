@@ -45,7 +45,7 @@ p {
     background-color:beige;
 }
 
-a:link { color:#FF0000; } /* unvisited link */
-a:visited { color:#222222; } /* visited link */
+a:link { color:#000000; } /* unvisited link */
+a:visited { color:#FF0000; } /* visited link */
 a:hover { color:#015210; } /* mouse over link */
 a:active { color:#0000FF; }  /* selected link */
