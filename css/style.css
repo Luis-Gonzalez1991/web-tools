@@ -54,7 +54,6 @@ table {
 #webmaster {
     color: #340D09;
 }
-a:link { color:#236AB9; } /* unvisited link */
-a:visited { color:#341C09; } /* visited link */
-a:hover { color: #FE2712; } /* mouse over link */
-a:active { color:black; }  /* selected link */
+a:link { color:black; } /* unvisited link */
+a:visited { color: rgba(110, 5, 5, 0.446); } /* visited link */
+a:hover { color: blue; } /* mouse over link */
