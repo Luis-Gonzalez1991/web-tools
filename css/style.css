@@ -1,51 +1,60 @@
 header, footer, nav, section {
-    background-color: lightcyan;
+    background-color: #FBA90A;
 }
 
 
 header {
-    background-color: white;
-    color: black;
+    background-color: #342609;
+    color: #FBA90A;
 }
 
 footer {
-    background-color:white;
+    background-color:#342609;
     color: black;
 }
 
 nav {
-    background-color:white;
+    background-color:#342609;
     color: black;
 }
 
-section {
-    background-color: rgb(255, 222, 228);
-    color: black;
-}
-
-h1, h2 {
+h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight:700;
-    color: black;
+    color: #FBA90A;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:700;
+    color: #F7D4F6;
 }
 
 h3, h4, h5, h6 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 500;
-    color:rgb(107, 16, 16);
+    color:#342609;
 }
 
 p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 200;
-    color:rgb(107, 16, 16);
+    color:#9A0794;
 }
 
-.content {
-    background-color:beige;
+table {
+    color: #342609;
 }
 
-a:link { color:#000000; } /* unvisited link */
-a:visited { color:#FF0000; } /* visited link */
-a:hover { color:#015210; } /* mouse over link */
-a:active { color:#0000FF; }  /* selected link */
+.topics {
+    background-color:#559E54;
+    color:#342609;
+}
+
+#webmaster {
+    color: #9A0794;
+}
+a:link { color:#FBA90A; } /* unvisited link */
+a:visited { color:#F7D4F6; } /* visited link */
+a:hover { color:#9A0794; } /* mouse over link */
+a:active { color:#559E54; }  /* selected link */
