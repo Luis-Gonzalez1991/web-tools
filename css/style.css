@@ -54,6 +54,11 @@ table {
 #webmaster {
     color: #340D09;
 }
+
+img {
+    width: 100px;
+    height: 150px;
+}
 a:link { color:black; } /* unvisited link */
 a:visited { color: rgba(110, 5, 5, 0.446); } /* visited link */
 a:hover { color: blue; } /* mouse over link */
