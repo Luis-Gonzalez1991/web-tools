@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson 6</title>
+  <title>Lesson 7</title>
   <link rel="stylesheet" href="../web-tools/css/style.css">
+  <link rel="stylesheet" href="../web-tools/css/layout.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="../web-tools/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../web-tools/favicons/apple-icon-60x60.png">
@@ -28,24 +29,30 @@
 
 <body>
   <header>
-    <h1>George Strait</h1>
-    <nav>
+
+    <nav class="topnav">
       <a href="../web-tools/index.html">Home</a> |
-      <a href="#">About Us</a> |
+      <a href="#news">News</a> |
+      <a href="#about">About Us</a> |
       <a href="../web-tools/contact-us.html">Contact Us</a> |
     </nav>
-    <ul>
-      <li><a href="#topic1">Summary</a></li>
-      <li><a href="#topic2">Early Life</a></li>
-      <li><a href="#topic3">Career</a></li>
-    </ul>
+
+    <img id="log" alt="logo" src="../web-tools/images/log.jpg">
   </header>
+  <aside class="content-list">
+    <ul>
+      <li><a href="#topic1" class="content-link">Summary</a></li>
+      <li><a href="#topic2" class="content-link">Early Life</a></li>
+      <li><a href="#topic3" class="content-link">Career</a></li>
+    </ul>
+  </aside>
   <main>
+    <h1>George Strait</h1>
     <section>
       <h2 class="topics" id="topic1">Summary</h2>
       <article>
-        <h3>Who is George Strait?</h3>
-        <figure>
+        <h3 class="right-title">Who is George Strait?</h3>
+        <figure class="left-image">
           <a href="../web-tools/images/george-strait-lg.jpg" target="_blank"><img
               src="../web-tools/images/george-strait-thumbnail.jpg" alt="George Strait holding a guitar."
               class="thumbnails"></a>
@@ -76,8 +83,8 @@
     <section>
       <h2 class="topics" id="topic2">Early Life</h2>
       <article>
-        <h3>Family</h3>
-        <figure>
+        <h3 class="left-title">Family</h3>
+        <figure class="right-image">
           <a href="../web-tools/images/george-ocean-front-lg.jpg" target="_blank"><img
               src="../web-tools/images/george-ocean-front-thumbnail.jpg" alt="Young George" class="thumbnails"></a>
           <figcaption>Album cover for George Strait's album <em>Ocean Front Property</em>.</figcaption>
@@ -90,7 +97,7 @@
           grade, his father and mother were divorced, and his mother moved away with his sister, Pency. George
           and his brother John "Buddy" Jr. (1950–2009), were raised by their father. For most of his early
           life, Strait spent his time ranching alongside his older brother Buddy and his father John</p>
-        <h3>High School</h3>
+        <h3 class="left-title">High School</h3>
         <p>Strait began his musical career while attending Pearsall High School, where he performed in a rock
           and
           roll garage band, known as the Stoics, taking most influence and inspiration from the Beatles and
@@ -105,8 +112,8 @@
     <section>
       <h2 class="topics" id="topic3">Career</h2>
       <article>
-        <h3>Discography</h3>
-        <figure>
+        <h3 class="right-title">Discography</h3>
+        <figure class="left-image">
           <a href="../web-tools/images/hall-of-fame-lg.jpg" target="_blank"><img
               src="../web-tools/images/hall-of-fame-thumbnail.jpg" alt="George's Hall of Fame plaque."
               class="thumbnails"></a>
@@ -127,7 +134,7 @@
         </p>
       </article>
       <article>
-        <h3>Filmography</h3>
+        <h3 class="right-title">Filmography</h3>
         <p>Strait has acted in several films. He had a bit part in The Soldier (1982) and starred in Pure
           Country (1992). He also appeared as himself in Grand Champion (2002). The film Pure Country featured
           George Strait in the lead role as Dusty Chandler, a famous country singer who strays too far from

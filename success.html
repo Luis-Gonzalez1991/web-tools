@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson 6</title>
+  <title>Lesson 7</title>
   <link rel="stylesheet" href="../web-tools/css/style.css">
+  <link rel="stylesheet" href="../web-tools/css/layout.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="../web-tools/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../web-tools/favicons/apple-icon-60x60.png">
@@ -29,18 +30,20 @@
 <body>
   <header>
     <h1>George Strait</h1>
-    <nav>
+    <nav class="topnav">
       <a href="../web-tools/index.html">Home</a> |
-      <a href="#">About Us</a> |
+      <a href="#news">News</a> |
+      <a href="#about">About Us</a> |
       <a href="../web-tools/contact-us.html">Contact Us</a> |
     </nav>
+    <img id="log" alt="logo" src="../web-tools/images/log.jpg">
   </header>
   <main>
     <section>
-      <h2> Success!</h2>
-      <p>We've received your contact request. We will be in contact with you as soon as possible. Thank you!
+      <h2 class="topics"> Success!</h2>
+      <p id="thanks-para">We've received your contact request. We will be in contact with you as soon as possible. Thank you!
       </p>
-      <img src="../web-tools/images/thank-you.jpg" alt="Thank you image" width="400">
+      <img src="../web-tools/images/thank-you.jpg" alt="Thank you image" id="thanks-img">
     </section>
   </main>
   <footer>

@@ -1,0 +1,123 @@
+header {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.topnav {
+    box-sizing:border-box;
+    height: 75px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 10vw;
+    padding-left: 5px;
+}
+
+fieldset {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#log {
+    width: 75px;
+    position: absolute;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 0;
+    box-shadow: 1px 1px 1px 1px grey
+}
+
+.topics{
+    width: 50vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: medium;
+    border-radius: 5px;
+    border-color: #340D09;
+    border-style: double;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px grey;
+    clear: both;
+}
+
+main {
+    width: 80vw;
+    max-width: 1200px;
+    margin: 5px;
+    padding: 5px;
+    margin-left: 5vw;
+}
+
+section {
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    box-sizing: border-box;
+    height: 100%;
+    max-width:200px;
+    width: 10vw;
+    float: right;
+    position: sticky;
+    top: 75px;
+}
+
+h1, h2, h3, h4 {
+    clear: both;
+}
+
+
+
+.left-title {
+    text-align: center;
+}
+
+.right-title {
+    text-align: center;
+}
+
+
+
+figure {
+    text-align: center;
+}
+
+.left-image {
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+
+.right-image {
+    float: right;
+    padding: 5px;
+    margin: 5px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: medium;
+    border-radius: 5px;
+    border-color: #B82214;
+    border-style: double;
+    box-shadow: 5px 5px 5px 5px grey
+}
+
+#thanks-img {
+    display:block;
+   width: 30%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#thanks-para {
+    text-align: center;
+}

@@ -1,7 +1,6 @@
-header, footer, nav, section {
+/*header, footer, nav, section {
     background-color: #E3F7D4;
-}
-
+}*/
 
 header {
     background-color: #66B032;
@@ -18,10 +17,15 @@ nav {
     color: #341C09;
 }
 
+.content-list {
+    background-color: #E3F7D4;
+}
+
 h1 {
     font-family: 'Times New Roman', Times, serif;
     font-weight:700;
     color: #340D09;
+    text-align: center;
 }
 
 h2 {
@@ -47,6 +51,7 @@ table {
 }
 
 .topics {
+    background-color: #E3F7D4;
     color:#B82214;
 }
 
@@ -56,15 +61,8 @@ table {
 
 .thumbnails {
     width: 100px;
-    height: 150px;
+/*    height: 150px; */
 }
-
-fieldset {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 
 a:link { color:black; } /* unvisited link */
 a:visited { color: rgba(110, 5, 5, 0.446); } /* visited link */
