@@ -1,8 +1,3 @@
-header {
-    box-sizing: border-box;
-    width: 100%;
-}
-
 .topnav {
     box-sizing:border-box;
     height: 75px;
@@ -37,11 +32,11 @@ fieldset {
     margin-left: auto;
     margin-right: auto;
     border: medium;
-    border-radius: 5px;
+    border-radius: 3px;
     border-color: #340D09;
     border-style: double;
     text-align: center;
-    box-shadow: 5px 5px 5px 5px grey;
+    box-shadow: 1px 1px 1px 1px grey;
     clear: both;
 }
 
@@ -73,8 +68,6 @@ h1, h2, h3, h4 {
     clear: both;
 }
 
-
-
 .left-title {
     text-align: center;
 }
@@ -82,7 +75,6 @@ h1, h2, h3, h4 {
 .right-title {
     text-align: center;
 }
-
 
 
 figure {
@@ -121,3 +113,4 @@ table {
 #thanks-para {
     text-align: center;
 }
+
