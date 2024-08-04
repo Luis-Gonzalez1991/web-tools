@@ -114,3 +114,149 @@ table {
     text-align: center;
 }
 
+.bios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bio {
+    border: medium;
+    border-radius: 5px;
+    border-color: #340D09;
+    border-style: double;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px grey;
+    margin-bottom: 25px;
+}
+
+
+.left-pic {
+    align-self: flex-start;
+
+}
+
+.right-pic {
+    align-self: flex-end;
+    
+}
+/*.sitelink {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}*/
+
+.flexnav {
+    height:75px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.nav-list {
+    list-style:none;
+    display: flex;
+}
+
+.list-style {
+    list-style: none;
+}
+
+.signin {
+   align-self: flex-end;
+   flex: auto;
+}
+/*
+footer {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.left-column {
+    align-self: flex-start;
+    flex:auto;
+
+}
+.center-column {
+    align-self:center;
+    flex: auto;
+}
+
+.right-column {
+    align-self: flex-end;
+    flex:auto;
+}
+
+.footer-list {
+    list-style:none;
+    text-align: center;
+}*/
+
+#copyrightimg {
+    width:100px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 75px auto 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+header {
+    grid-column: 2 / 6;
+    grid-row: 1;
+}
+
+
+nav {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+}
+
+main {
+    grid-column: 2 / 5;
+    grid-row: 2;
+}
+
+aside {
+    grid-column: 6;
+    grid-row: 2;
+}
+
+footer {
+    grid-column: 1 / 6;
+    grid-row: 4;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+}
+
+.footer-left {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.footer-center {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.footer-right {
+    grid-column: 3;
+    grid-row: 1;
+}
+

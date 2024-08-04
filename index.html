@@ -4,9 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson 8</title>
+  <title>Lesson 9</title>
   <link rel="stylesheet" href="../web-tools/css/style.css">
   <link rel="stylesheet" href="../web-tools/css/layout.css">
+  <link rel="stylesheet" href="../web-tools/css/flex-layout.css">
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="apple-touch-icon" sizes="57x57" href="../web-tools/favicons/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="../web-tools/favicons/apple-icon-60x60.png">
@@ -27,171 +28,194 @@
   <meta name="theme-color" content="#ffffff">
 </head>
 
-<body>
-  <header>
+<body class="container">
+    <header>
+      <h1> George Straight </h1>
+      <img id="log" alt="logo" src="../web-tools/images/log.jpg">
+    </header>
 
-    <nav class="topnav">
-      <a href="../web-tools/index.html">Home</a> |
-      <a href="#news">News</a> |
-      <a href="../web-tools/team.html">About Us</a> |
-      <a href="../web-tools/contact-us.html">Contact Us</a> |
+    <nav class="nav-container">
+      <ul class="list-style">
+        <li><a href="../web-tools/index.html" class="sitelink">Home</a> | </li>
+        <li><a href="#news" class="sitelink">News</a> | </li>
+        <li><a href="../web-tools/team.html" class="sitelink">About Us</a> | </li>
+        <li><a href="../web-tools/contact-us.html" class="sitelink">Contact Us</a> | </li>
+        <li class="signin"><a href="#">Sign In</a></li>
+      </ul>
     </nav>
 
-    <img id="log" alt="logo" src="../web-tools/images/log.jpg">
-  </header>
-  <aside class="content-list">
-    <ul>
-      <li><a href="#topic1" class="content-link">Summary</a></li>
-      <li><a href="#topic2" class="content-link">Early Life</a></li>
-      <li><a href="#topic3" class="content-link">Career</a></li>
+    <aside class="content-list">
+      <ul class="list-style">
+        <li>Contents</li>
+        <li><a href="#topic1" class="content-link">Summary</a></li>
+        <li><a href="#topic2" class="content-link">Early Life</a></li>
+        <li><a href="#topic3" class="content-link">Career</a></li>
+      </ul>
+    </aside>
+
+    <main>
+      <section>
+        <h2 class="topics" id="topic1">Summary</h2>
+        <article>
+          <h3 class="right-title">Who is George Strait?</h3>
+          <figure class="left-image">
+            <a href="../web-tools/images/george-strait-lg.jpg" target="_blank"><img
+                src="../web-tools/images/george-strait-thumbnail.jpg" alt="George Strait holding a guitar."
+                class="thumbnails"></a>
+            <figcaption>George Strait holding a guitar at a concert.</figcaption>
+          </figure>
+          <p>George Harvey Strait Sr. (born May 18, 1952) is an American country music
+            singer, songwriter, actor, and music producer. Strait is credited for pioneering the neotraditional
+            country style in the 1980s, famed for his authentic cowboy image and roots-oriented sound at a time
+            when
+            the Nashville music industry was dominated by country pop crossover acts. Given his influence on the
+            genre, Strait has been named the <em>"King of Country Music"</em> by writers and music critics.
+            Strait
+            currently holds the record for most number one songs on all charts by an artist, in any genre of
+            music."
+          </p>
+
+          <p>
+            Strait has sold more than 120 million records worldwide, making him one of the best-selling music
+            artists of all time. He holds the RIAA record for most certified platinum albums by any artist, with
+            33 certified platinum albums. Strait also has 13 multi-platinum and 38 gold albums. His best-selling
+            album is Pure Country (1992), which sold 6 million (6× platinum). His highest certified album is
+            Strait Out of the Box (1995), which sold 2 million copies (8× Platinum due to being a box set with
+            four CDs). According to the RIAA, Strait is the 12th best-selling album recording artist in the
+            United States overall selling over <strong>69 million records</strong> across the United States.
+          </p>
+        </article>
+      </section>
+      <section>
+        <h2 class="topics" id="topic2">Early Life</h2>
+        <article>
+          <h3 class="left-title">Family</h3>
+          <figure class="right-image">
+            <a href="../web-tools/images/george-ocean-front-lg.jpg" target="_blank"><img
+                src="../web-tools/images/george-ocean-front-thumbnail.jpg" alt="Young George" class="thumbnails"></a>
+            <figcaption>Album cover for George Strait's album <em>Ocean Front Property</em>.</figcaption>
+          </figure>
+          <p>George Harvey Strait Sr. was born on May 18, 1952, in Poteet, Texas, to John Byron Strait Sr.
+            (January 11, 1922 – June 4, 2013), and Doris Jean Couser (June 26, 1930 – January 30, 2010).
+            He grew up in nearby Pearsall, in Frio County,[1] where his father was a junior high school
+            mathematics teacher and the owner of a 2,000-acre (810 ha) cattle ranch outside of Big Wells, Texas.
+            The family worked at the ranch on the weekends and in the summers. When George was in the fourth
+            grade, his father and mother were divorced, and his mother moved away with his sister, Pency. George
+            and his brother John "Buddy" Jr. (1950–2009), were raised by their father. For most of his early
+            life, Strait spent his time ranching alongside his older brother Buddy and his father John</p>
+          <h3 class="left-title">High School</h3>
+          <p>Strait began his musical career while attending Pearsall High School, where he performed in a rock
+            and
+            roll garage band, known as the Stoics, taking most influence and inspiration from the Beatles and
+            other
+            British Invasion-era rock groups. "The Beatles were big," Strait confirmed. "I listened to them a
+            lot
+            and that whole bunch of groups that were popular then." Strait would perform in other rock bands
+            during
+            his high school tenure.</p>
+        </article>
+      </section>
+      <section>
+        <h2 class="topics" id="topic3">Career</h2>
+        <article>
+          <h3 class="right-title">Discography</h3>
+          <figure class="left-image">
+            <a href="../web-tools/images/hall-of-fame-lg.jpg" target="_blank"><img
+                src="../web-tools/images/hall-of-fame-thumbnail.jpg" alt="George's Hall of Fame plaque."
+                class="thumbnails"></a>
+            <figcaption>George's plaque at the Country Music Hall of Fame.</figcaption>
+          </figure>
+          <p>In more than 30 years of recording, all of which have been spent with MCA Records, George Strait has
+            garnered 61 number-one songs on all country charts (including Mediabase 24/7, the former Radio &
+            Records chart, and the now-defunct Gavin Report chart), and has more number-one hits than any other
+            artist in a single genre. His 44 Billboard country number-one hits are a record, four more than
+            Conway Twitty's total that includes several duets with Loretta Lynn.</p>
+          <p>
+            Additionally, <mark>Strait is also the first artist in the history of Billboard to have at least one
+              single enter the top 10 of a Billboard chart for 30 consecutive years</mark>, starting in 1981
+            when his debut single "Unwound" peaked at number six on the Hot Country Singles chart. All of his
+            top-10 singles have been on that chart. Strait has sold more than 68 million records in the United
+            States alone, and his certifications from the RIAA include 13 multiplatinum, 33 platinum, and 38
+            gold albums.
+          </p>
+        </article>
+        <article>
+          <h3 class="right-title">Filmography</h3>
+          <p>Strait has acted in several films. He had a bit part in The Soldier (1982) and starred in Pure
+            Country (1992). He also appeared as himself in Grand Champion (2002). The film Pure Country featured
+            George Strait in the lead role as Dusty Chandler, a famous country singer who strays too far from
+            his country roots and traditional sound. It provided the opportunity for Strait to branch out from
+            his own traditional country sound for a more rock-and-roll approach. The film had little success at
+            the box office and took in only $15 million, but the soundtrack also called Pure Country, produced
+            several hit singles for Strait. It has become his best-selling album to date. Strait had a limited
+            role in the sequel to Pure Country, Pure Country 2: The Gift.</p>
+
+          <table>
+            <caption>Filmography Table</caption>
+            <thead>
+              <tr>
+                <th scope="col" abbr="Column1" id="col1">Year</th>
+                <th scope="col" abbr="Column2" id="col2">Title</th>
+                <th scope="col" abbr="Column3" id="col3">Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td headers="col1">1982</td>
+                <td headers="col2">The Soldier</td>
+                <td headers="col3">Himself</td>
+              </tr>
+              <tr>
+                <td headers="col1">1992</td>
+                <td headers="col2">Pure County</td>
+                <td headers="col3">Wyatt "Dusty" Chandler</td>
+              </tr>
+              <tr>
+                <td headers="col1">2002</td>
+                <td headers="col2">Grand Champion</td>
+                <td headers="col3">Himself</td>
+              </tr>
+              <tr>
+                <td headers="col1">2003</td>
+                <td headers="col2">King of the Hill</td>
+                <td headers="col3">Voice of Cornell</td>
+              </tr>
+              <tr>
+                <td headers="col1">2010</td>
+                <td headers="col2">Pure Country 2: The Gift</td>
+                <td headers="col3">Himself</td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </article>
+      </section>
+    </main>
+  <footer class="footer-container">
+
+    <ul class="footer-left">
+      <li><a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank"
+          title="Dallas College Website">Dallas College Website</a></li>
+      <li><a href="https://openai.com/chatgpt/" target="_blank" title="ChatGPT Website">ChatGPT
+          Website</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/George_Strait" target="_blank" title="Source Material">Source</a>
+      </li>
     </ul>
-  </aside>
-  <main>
-    <h1>George Strait</h1>
-    <section>
-      <h2 class="topics" id="topic1">Summary</h2>
-      <article>
-        <h3 class="right-title">Who is George Strait?</h3>
-        <figure class="left-image">
-          <a href="../web-tools/images/george-strait-lg.jpg" target="_blank"><img
-              src="../web-tools/images/george-strait-thumbnail.jpg" alt="George Strait holding a guitar."
-              class="thumbnails"></a>
-          <figcaption>George Strait holding a guitar at a concert.</figcaption>
-        </figure>
-        <p>George Harvey Strait Sr. (born May 18, 1952) is an American country music
-          singer, songwriter, actor, and music producer. Strait is credited for pioneering the neotraditional
-          country style in the 1980s, famed for his authentic cowboy image and roots-oriented sound at a time
-          when
-          the Nashville music industry was dominated by country pop crossover acts. Given his influence on the
-          genre, Strait has been named the <em>"King of Country Music"</em> by writers and music critics.
-          Strait
-          currently holds the record for most number one songs on all charts by an artist, in any genre of
-          music."
-        </p>
 
-        <p>
-          Strait has sold more than 120 million records worldwide, making him one of the best-selling music
-          artists of all time. He holds the RIAA record for most certified platinum albums by any artist, with
-          33 certified platinum albums. Strait also has 13 multi-platinum and 38 gold albums. His best-selling
-          album is Pure Country (1992), which sold 6 million (6× platinum). His highest certified album is
-          Strait Out of the Box (1995), which sold 2 million copies (8× Platinum due to being a box set with
-          four CDs). According to the RIAA, Strait is the 12th best-selling album recording artist in the
-          United States overall selling over <strong>69 million records</strong> across the United States.
-        </p>
-      </article>
-    </section>
-    <section>
-      <h2 class="topics" id="topic2">Early Life</h2>
-      <article>
-        <h3 class="left-title">Family</h3>
-        <figure class="right-image">
-          <a href="../web-tools/images/george-ocean-front-lg.jpg" target="_blank"><img
-              src="../web-tools/images/george-ocean-front-thumbnail.jpg" alt="Young George" class="thumbnails"></a>
-          <figcaption>Album cover for George Strait's album <em>Ocean Front Property</em>.</figcaption>
-        </figure>
-        <p>George Harvey Strait Sr. was born on May 18, 1952, in Poteet, Texas, to John Byron Strait Sr.
-          (January 11, 1922 – June 4, 2013), and Doris Jean Couser (June 26, 1930 – January 30, 2010).
-          He grew up in nearby Pearsall, in Frio County,[1] where his father was a junior high school
-          mathematics teacher and the owner of a 2,000-acre (810 ha) cattle ranch outside of Big Wells, Texas.
-          The family worked at the ranch on the weekends and in the summers. When George was in the fourth
-          grade, his father and mother were divorced, and his mother moved away with his sister, Pency. George
-          and his brother John "Buddy" Jr. (1950–2009), were raised by their father. For most of his early
-          life, Strait spent his time ranching alongside his older brother Buddy and his father John</p>
-        <h3 class="left-title">High School</h3>
-        <p>Strait began his musical career while attending Pearsall High School, where he performed in a rock
-          and
-          roll garage band, known as the Stoics, taking most influence and inspiration from the Beatles and
-          other
-          British Invasion-era rock groups. "The Beatles were big," Strait confirmed. "I listened to them a
-          lot
-          and that whole bunch of groups that were popular then." Strait would perform in other rock bands
-          during
-          his high school tenure.</p>
-      </article>
-    </section>
-    <section>
-      <h2 class="topics" id="topic3">Career</h2>
-      <article>
-        <h3 class="right-title">Discography</h3>
-        <figure class="left-image">
-          <a href="../web-tools/images/hall-of-fame-lg.jpg" target="_blank"><img
-              src="../web-tools/images/hall-of-fame-thumbnail.jpg" alt="George's Hall of Fame plaque."
-              class="thumbnails"></a>
-          <figcaption>George's plaque at the Country Music Hall of Fame.</figcaption>
-        </figure>
-        <p>In more than 30 years of recording, all of which have been spent with MCA Records, George Strait has
-          garnered 61 number-one songs on all country charts (including Mediabase 24/7, the former Radio &
-          Records chart, and the now-defunct Gavin Report chart), and has more number-one hits than any other
-          artist in a single genre. His 44 Billboard country number-one hits are a record, four more than
-          Conway Twitty's total that includes several duets with Loretta Lynn.</p>
-        <p>
-          Additionally, <mark>Strait is also the first artist in the history of Billboard to have at least one
-            single enter the top 10 of a Billboard chart for 30 consecutive years</mark>, starting in 1981
-          when his debut single "Unwound" peaked at number six on the Hot Country Singles chart. All of his
-          top-10 singles have been on that chart. Strait has sold more than 68 million records in the United
-          States alone, and his certifications from the RIAA include 13 multiplatinum, 33 platinum, and 38
-          gold albums.
-        </p>
-      </article>
-      <article>
-        <h3 class="right-title">Filmography</h3>
-        <p>Strait has acted in several films. He had a bit part in The Soldier (1982) and starred in Pure
-          Country (1992). He also appeared as himself in Grand Champion (2002). The film Pure Country featured
-          George Strait in the lead role as Dusty Chandler, a famous country singer who strays too far from
-          his country roots and traditional sound. It provided the opportunity for Strait to branch out from
-          his own traditional country sound for a more rock-and-roll approach. The film had little success at
-          the box office and took in only $15 million, but the soundtrack also called Pure Country, produced
-          several hit singles for Strait. It has become his best-selling album to date. Strait had a limited
-          role in the sequel to Pure Country, Pure Country 2: The Gift.</p>
+    <ul class="footer-center">
+      <li><img src="../web-tools/images/copyright.jpg" alt="Copyright logo" id="copyrightimg">
+      </li>
+      <li><a href="mailto:e2360655@student.dcccd.edu" target="_blank" title="Send the Webmaster an Email"
+          class="center-column">Webmaster Email</a></li>
+      <li><em id="webmaster">Made by Luis Gonzalez. 6/8/2024. Last Updated 8/3/2024.</em></li>
+    </ul>
 
-        <table>
-          <caption>Filmography Table</caption>
-          <thead>
-            <tr>
-              <th scope="col" abbr="Column1" id="col1">Year</th>
-              <th scope="col" abbr="Column2" id="col2">Title</th>
-              <th scope="col" abbr="Column3" id="col3">Role</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td headers="col1">1982</td>
-              <td headers="col2">The Soldier</td>
-              <td headers="col3">Himself</td>
-            </tr>
-            <tr>
-              <td headers="col1">1992</td>
-              <td headers="col2">Pure County</td>
-              <td headers="col3">Wyatt "Dusty" Chandler</td>
-            </tr>
-            <tr>
-              <td headers="col1">2002</td>
-              <td headers="col2">Grand Champion</td>
-              <td headers="col3">Himself</td>
-            </tr>
-            <tr>
-              <td headers="col1">2003</td>
-              <td headers="col2">King of the Hill</td>
-              <td headers="col3">Voice of Cornell</td>
-            </tr>
-            <tr>
-              <td headers="col1">2010</td>
-              <td headers="col2">Pure Country 2: The Gift</td>
-              <td headers="col3">Himself</td>
-            </tr>
-          </tbody>
-        </table>
-        <hr>
-      </article>
-    </section>
-  </main>
-  <footer>
-    <a href="https://www.dallascollege.edu/pages/default.aspx" target="_blank" title="Dallas College Website">Dallas
-      College Website</a> |
-    <a href="mailto:e2360655@student.dcccd.edu" target="_blank" title="Send the Webmaster an Email">Webmaster Email</a>
-    |
-    <a href="https://en.wikipedia.org/wiki/George_Strait" target="_blank" title="Source Material">Source</a> |
-    <em id="webmaster">Made by Luis Gonzalez. 6/8/2024. Last Updated 8/3/2024.</em>
+    <ul class="footer-right">
+      <li><a href="../web-tools/index.html" class="sitelink">Home</a></li>
+      <li><a href="#news" class="sitelink">News</a></li>
+      <li><a href="../web-tools/team.html" class="sitelink">About Us</a></li>
+      <li><a href="../web-tools/contact-us.html" class="sitelink">Contact Us</a></li>
+    </ul>
   </footer>
 </body>
 
